@@ -1,0 +1,67 @@
+.Footer{
+    position: relative;
+    padding-top: 5vh;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(240deg, rgb(95, 139, 211), rgb(96, 1, 1));    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footer-tile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20vh;
+}
+.tile1{
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: rgb(255 255 255 / 66%);
+    border-radius: 8px;
+    box-shadow: 0 0 20px 4px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: backdrop-filter;
+    z-index: 1;}
+
+.closing{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));    color: bisque;
+    height: 10vh;
+}
+.social{
+    padding-top: 20px;
+    display: block;
+}
+.social-icon{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.social-icon:hover{
+    background: rgba(31, 30, 30, 0.322);
+}
+dl{
+    line-height: 2px;
+}
+
+.input-mail{
+    border: none;
+    padding: 4px;
+    width: 90%;
+    height: 4.5vh;
+    border-radius: 7px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.input-submit{
+    background: rgb(241, 62, 30);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+}

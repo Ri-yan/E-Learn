@@ -1,0 +1,13 @@
+.App {
+  width: 100%;
+  background-color: black;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  
+}
