@@ -10,7 +10,7 @@ const About=()=>{
             <div className="qoute">"Being a progammer is not an easy job."</div>
             <div className="forewords">
                 <div className="goals">
-                    <div style={{padding:'10px 0px'}}>Our Goals</div>
+                    <div className='bottom' style={{padding:'10px 0px 0px 0px','margin-bottom':'30px'} }>Our Goals</div>
                     <ul className='goal-list'>
                         <li>To encourage higher-level thinking and creativity through combined package of resource</li>
                         <li>To promote computer-based educational resources.</li>
@@ -31,9 +31,13 @@ const About=()=>{
                     <div style={{margin:'20px 0px 5px 0px', 'font-weight':'600'}}>ThankYou for choosing us and keep supporting us.</div>
                 </div>
             </div>
-            <div className='goal-list achive'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde fuga eos cum laboriosam modi! Eaque ex sit possimus fugiat, nam omnis. Quia necessitatibus, repellendus in eum nemo harum possimus facere!</div>
+            <div className='goal-list achive'>
+                <h2 className='bottom'>About us</h2>
+                    <p>E-Learn originated from the idea that there exists a class of readers who respond better to online content and prefer to learn new skills at their own pace from the comforts of their drawing rooms.</p>
+                    <p>Our content and resources are freely available and we prefer to keep it that way to encourage our readers acquire as many skills as they would like to. We don’t force our readers to sign up with us or submit their details either. No preconditions and no impediments. Simply Easy Learning!</p>
+                </div>
             <div className="achive">
-                <h1>Our Motive</h1>
+                <h1 className='bottom'>Our Motive</h1>
                 <div className="goal-card-section">
                 <div className="goal-card">
                     <img src={goal1} alt="" className="goal-img" />
@@ -48,9 +52,9 @@ const About=()=>{
                     <h2>Rise</h2>
                 </div>
             </div>
-            <div className='goal-list achive'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga inventore aliquid sapiente iure dolores aut suscipit laboriosam, non quos soluta provident nemo quasi quisquam maxime fugit nobis laudantium dolorum assumenda!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus exercitationem quisquam esse magnam iusto aperiam rerum earum atque quidem minus, suscipit deserunt consequatur voluptatum optio at maxime eum asperiores dolore!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nostrum quaerat, cumque voluptate ea tenetur totam, ipsam sit aperiam similique nihil neque amet consectetur sequi eos velit harum nam voluptatibus?
+            <div className='goal-list achive'>
+                <h2 className='bottom'>Our Mission</h2>
+                <p>Our mission is to deliver Simply Easy Learning with clear, crisp, and to-the-point content on a wide range of technical and non-technical subjects without any preconditions and impediments.</p>
             </div>
             </div>
             

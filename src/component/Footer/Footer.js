@@ -18,23 +18,23 @@ const Footer=()=>{
                     <img className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/gmail.png"/>
                 </div>
                 <div className="tile1">
-                    <h3>INFORMATION</h3>
+                    <h3>OUR SERVICES</h3>
                     <ul>
-                        <li>info1</li>
-                        <li>info1</li>
-                        <li>info1</li>
-                        <li>info1</li>
+                        <li>Website Development</li>
+                        <li>Android Development</li>
+                        <li>Website Designing</li>
+                        <li>And many more..</li>
                     </ul>
                 </div>
                 <div className="tile1">
                     <h3 >CONTACT DETAILS</h3>
                     <dl>
                         <dt><h5>Contact</h5></dt>
-                        <dd>43234325</dd>
+                        <dd>0511-000##</dd>
                         <dt><h5>Adderess</h5></dt>
                         <dd>India</dd>
                         <dt><h5>Email</h5></dt>
-                        <dd>abc@email.com</dd>
+                        <dd>ELearn@email.com</dd>
                     </dl>
                 </div>
                 <div className="tile1">
