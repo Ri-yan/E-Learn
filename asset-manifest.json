@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Ri-yan/E-Learn/static/css/main.40f1b580.chunk.css",
+    "main.js": "/Ri-yan/E-Learn/static/js/main.3d3cd8ef.chunk.js",
+    "main.js.map": "/Ri-yan/E-Learn/static/js/main.3d3cd8ef.chunk.js.map",
+    "runtime-main.js": "/Ri-yan/E-Learn/static/js/runtime-main.3ff49a34.js",
+    "runtime-main.js.map": "/Ri-yan/E-Learn/static/js/runtime-main.3ff49a34.js.map",
+    "static/js/2.ecf12957.chunk.js": "/Ri-yan/E-Learn/static/js/2.ecf12957.chunk.js",
+    "static/js/2.ecf12957.chunk.js.map": "/Ri-yan/E-Learn/static/js/2.ecf12957.chunk.js.map",
+    "static/js/3.dc76e782.chunk.js": "/Ri-yan/E-Learn/static/js/3.dc76e782.chunk.js",
+    "static/js/3.dc76e782.chunk.js.map": "/Ri-yan/E-Learn/static/js/3.dc76e782.chunk.js.map",
+    "index.html": "/Ri-yan/E-Learn/index.html",
+    "static/css/main.40f1b580.chunk.css.map": "/Ri-yan/E-Learn/static/css/main.40f1b580.chunk.css.map",
+    "static/js/2.ecf12957.chunk.js.LICENSE.txt": "/Ri-yan/E-Learn/static/js/2.ecf12957.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/Ri-yan/E-Learn/static/media/AboutCover.047fdb4b.jpeg",
+    "static/media/Scover.1debbad9.svg": "/Ri-yan/E-Learn/static/media/Scover.1debbad9.svg",
+    "static/media/c0.6f6cf6c1.svg": "/Ri-yan/E-Learn/static/media/c0.6f6cf6c1.svg",
+    "static/media/c2.c30055bb.svg": "/Ri-yan/E-Learn/static/media/c2.c30055bb.svg",
+    "static/media/c3.0349645c.svg": "/Ri-yan/E-Learn/static/media/c3.0349645c.svg",
+    "static/media/c4.a7353456.svg": "/Ri-yan/E-Learn/static/media/c4.a7353456.svg",
+    "static/media/c5.9d946ea2.svg": "/Ri-yan/E-Learn/static/media/c5.9d946ea2.svg",
+    "static/media/Register.css": "/Ri-yan/E-Learn/static/media/cover.b7249881.jpg",
+    "static/media/Services.css": "/Ri-yan/E-Learn/static/media/cover2.9d0a0e97.jpg",
+    "static/media/goal1.a36749ac.svg": "/Ri-yan/E-Learn/static/media/goal1.a36749ac.svg",
+    "static/media/goal2.1b626ce2.svg": "/Ri-yan/E-Learn/static/media/goal2.1b626ce2.svg",
+    "static/media/goal3.ed16a17e.svg": "/Ri-yan/E-Learn/static/media/goal3.ed16a17e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ff49a34.js",
+    "static/js/2.ecf12957.chunk.js",
+    "static/css/main.40f1b580.chunk.css",
+    "static/js/main.3d3cd8ef.chunk.js"
+  ]
+}
