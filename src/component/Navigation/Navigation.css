@@ -9,6 +9,7 @@
 .header.active{
     background: black;
     background: linear-gradient(90deg,rgba(73,63,252,1) 0% ,rgba(73,63,252,1) 100%);
+    background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));    color: bisque;
 
 }
 .NavbarItems{
@@ -24,6 +25,7 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
 }
 .nav-menu{
     display: grid;
@@ -59,6 +61,38 @@
 .menu-icon{
     display: none;
 }
+.hamburger {
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: translate(-10px, 15px);
+}
+.bar{
+    border: 2px solid white;
+    display: flex;
+    margin: 5px 0px;
+    transition: all 0.5s ease;
+    width: 30px;
+    border-radius:40px;
+
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: all 0.5s ease;
+
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    transition: all 0.5s ease;
+
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    transition: all 0.5s ease;
+
+}
 @media screen and (max-width:960px){
     .header{
         background: black;
@@ -73,19 +107,20 @@
         height: 500px;
         position: absolute;
         top: 80px;
-        left: -100%;
+        left: -150%;
         opacity: 1;
         transition: all 0.5s ease;
     }
     .nav-menu.active{
         background: #6668f4;
+        background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));
         left: 0;
         opacity: 1;
         z-index: 1;
         transition: all 0.5s ease;
         padding: 2px;
         width: -webkit-fill-available;
-    margin: 0px;
+        margin: 0px;
     }
     .nav-links{
         text-align: center;
@@ -105,6 +140,7 @@
     }
     .nav-links:hover{
         background-color: #7577fa;
+        background-color: black;
         border-radius: 0;
 
     }

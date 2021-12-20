@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+.Services {
+  position: relative;
+  height: 120vh;
+  font-family: 'Montserrat', sans-serif;
+  background: url(./cover2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* padding-top: 12vh; */
+  top: 12vh;
+  scroll-behavior: smooth;
+}
+.services-para{
+  color: white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.383);
+  padding: 40px 30px;
+  margin: 5px 25px;
+  border-radius: 25px;
+}
+.services-cover{
+  display: flex;
+  padding: 30px 10rem;
+  background: linear-gradient(25deg, rgb(3, 10, 48), rgb(4, 57, 5));
+  box-shadow: inset 0px 15px 10px -15px #111;
+}
+.services-cover-img {
+  height: 25vh;
+  width: auto;
+  background-color: #000000db;
+  background: linear-gradient(224deg, rgb(3, 10, 48), rgb(4, 57, 5));
+  border-radius: 25px;
+  padding: 50px;
+  animation: rotater;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes rotater {
+  /* 0%   {transform:rotate(-5deg);}
+  25%  {transform:rotate(5deg);}
+  50%  {transform:rotate(7deg);}
+  75%  {transform:rotate(5deg);}
+  100% {transform:rotate(-5deg);} */
+  
+  from {transform:rotate(-4deg);}
+  to {transform:rotate(4deg);}
+}
+.services-cover-para {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3em;
+  width: auto;
+  padding: 50px;
+  color: white;
+  border-radius: 45px;
+}
+@media screen and (max-width:960px) {
+  .services-cover {
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+}

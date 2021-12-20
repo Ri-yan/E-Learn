@@ -9,13 +9,13 @@ export const menuitems=[
         title:'Services',
         url:'#',
         cName:'nav-links',
-        route:'home'
+        route:'services'
     },
     {
         title:'Contact',
         url:'#',
         cName:'nav-links',
-        route:'home'
+        route:'footer'
     },
     {
         title:'About',
@@ -24,7 +24,7 @@ export const menuitems=[
         route:'about'
     },
     {
-        title:'Signin',
+        title:'Register',
         url:'#',
         cName:'nav-sigin',
         route:'register'

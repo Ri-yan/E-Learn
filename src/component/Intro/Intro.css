@@ -1,0 +1,119 @@
+
+
+.intro{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.offer-card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.offer-card {
+    position: relative;
+    height: 280px;
+    width: 90vw;
+    background: #ffffff33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 5vh;
+    margin: 5px;
+    transform: translateX(0);
+    transition: all 1.5s ease-out;
+}
+.left{
+    left:-100vw;
+}
+.right{
+    left: 100vw;
+}
+.left-active {
+    position: relative;
+    left:0vw;
+    transition: all 1.5s linear;
+}
+.right-active {
+    position: relative;
+    display: flex;
+    left: 0vw;
+    transition: all 1.5s linear;
+}
+.c1{
+    height: 200px;
+    width: 200px;
+}
+.card-detail{
+    padding: 30px 20px;
+    font-size: 1em;
+    display: flex;
+}
+.service-cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.service-cover-detail {
+    display: flex;
+    padding: 10px 120px;
+    font-size: 1.5em;
+    color: white;
+}
+.service-cover-image{
+    width: 300px;
+    height: 250px;
+    animation: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    animation-direction: alternate;
+    animation-timing-function:linear;
+    transition: all 1s ease;
+}
+@keyframes rotate {
+    from{transform: rotateY(0deg);}
+    to{transform: rotateY(360deg);}
+}
+.sites-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 12px;
+    margin: 4px;
+    cursor: pointer;
+}
+.btn-explore{
+        margin: 25px auto;
+        background: rgb(241, 62, 30);
+        color: white;
+        text-decoration: none;
+        padding: 1.2rem 2.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+@media screen and (max-width:960px){
+    .c1{
+        width: 160px;
+    }
+    .service-cover-image{
+        width: 300px;
+    }
+    .card-detail{
+        font-size: 2.5vh;
+    }
+    .service-cover-detail{
+        padding: 20px 20px;
+        font-size: 1em;
+    }
+    .intro{
+        margin-top: 10vh;
+    }
+}

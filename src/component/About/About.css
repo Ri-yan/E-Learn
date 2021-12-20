@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+.about {
+  position: relative;
+  top: 80px;
+  /* height: 60vh; */
+  font-family: 'Montserrat', sans-serif;
+  background: url(./AboutCover.jpeg) no-repeat center center fixed; 
+  background-color: rgba(0, 0, 0, 0.281);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: -webkit-fill-available;
+}
+.qoute {
+  display: flex;
+  background-color: #00000073;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.forewords{
+  color: white;
+  background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));
+  /* height: 130vh; */
+  font-size: 1.5em;
+}
+.goals{
+  padding: 30px 0px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8vh;
+}
+
+.goal-list {
+  font-size: 20px;
+  list-style-type: none;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: start; */
+  margin: auto;
+  padding: 0px 20px;
+}
+.line {
+  width: 100%;
+  border: 1px solid rgb(241, 62, 30);
+  box-shadow: 0px 0px 9px 1px rgb(241 62 30);
+  margin-top: 15vh;
+}
+/*owerner card*/
+.ownercard {
+  height: fit-content;
+  margin: 10px 240px;
+  background: white;
+  width: -webkit-fill-available;
+  display: flex;
+  border-radius: 25px;
+  padding: 40px 0px;
+  color: black;
+  height: max-content;
+  box-shadow: 0px 0px 9px 2px #5182b5;
+}
+.owner-image-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+.owner-img{
+  height: 180px;
+  width: auto;
+  margin-bottom: 25px;
+  /* border: solid rgb(241, 62, 30); */
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 2px rgb(241, 62, 30);
+}
+.owener-words{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 10px;
+  margin-top: 30px;
+  width: -webkit-fill-available;
+  font-size: 0.8em;
+}
+.greeting{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+@media screen and (max-width:960px) {
+  .ownercard {
+    flex-direction: column;
+    margin: 10px;
+  }
+}
+.achive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));
+  padding: 30px 0px;
+}
+.goal-card-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.goal-card{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 200px;
+  background: linear-gradient(188deg, rgb(49, 75, 109), rgb(40, 77, 35));
+  margin: 5px;
+  border-radius: 25px;
+  padding: 10px;
+}
+.goal-img{
+  background-size: cover;
+  height: 150px;
+  width: auto;
+}

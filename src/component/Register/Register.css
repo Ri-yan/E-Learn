@@ -69,7 +69,7 @@ hr {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     border: 3px;
-    margin: 0.5px 0.5px 0.5px 0.5px;
+    /* margin: 0.5px 0.5px 0.5px 0.5px; */
     padding: 60px 68px 40px 68px;
     background-color: rgba(0,0,0,0.80);
     border-radius: 10px;

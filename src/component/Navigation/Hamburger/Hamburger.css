@@ -1,0 +1,32 @@
+.hamburger {
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: translate(-10px, 15px);
+}
+.bar{
+    border: 2px solid white;
+    display: flex;
+    margin: 5px 0px;
+    transition: all 0.5s ease;
+    width: 30px;
+    border-radius:40px;
+
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: all 0.5s ease;
+
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    transition: all 0.5s ease;
+
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    transition: all 0.5s ease;
+
+}

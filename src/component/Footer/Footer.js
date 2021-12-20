@@ -4,7 +4,8 @@ import './Footer.css';
 const Footer=()=>{
     return(
         <div className="Footer">
-            <h1 style={{'text-align':'center'}}>EXPLORE MORE</h1>
+            <h1 style={{'text-align':'center','font-family': "'Kaushan Script', cursive"
+}}>EXPLORE MORE</h1>
             <div className="footer-tile">
                 <div className="tile1">
                     <h3>SOCIAL LINKS</h3>
@@ -15,7 +16,6 @@ const Footer=()=>{
                     <img className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/linkedin.png"/>
                     </div>
                     <img className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/gmail.png"/>
-
                 </div>
                 <div className="tile1">
                     <h3>INFORMATION</h3>
@@ -27,7 +27,7 @@ const Footer=()=>{
                     </ul>
                 </div>
                 <div className="tile1">
-                    <h3>CONTACT DETAILS</h3>
+                    <h3 >CONTACT DETAILS</h3>
                     <dl>
                         <dt><h5>Contact</h5></dt>
                         <dd>43234325</dd>
@@ -46,7 +46,13 @@ const Footer=()=>{
                     </form>
                 </div>
             </div>
-            <div className="closing">@Mohd Riyan</div>
+            <div className="closing">
+                <div>@Mohd Riyan</div>
+                <div >
+                    <img style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='github' src="https://img.icons8.com/material/48/000000/github.png"/>
+                    <img  style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/linkedin.png"/>
+                </div>
+            </div>
         </div>
     );
 }

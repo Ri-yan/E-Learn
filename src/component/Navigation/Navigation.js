@@ -1,8 +1,11 @@
 import React,{useState,useEffect} from "react";
 import {menuitems} from './menuitems';
+// import Hamburger from './Hamburger/Hamburger.js'
 import './Navigation.css';
 
 const Navigation=({onRouteChange})=>{
+    const [hamactive,setHamActive] = useState(false);
+    const handleHam=()=>setHamActive(!hamactive);
     const [click,setClick] = useState(false);
     const [button,setButton] = useState(true);
     const[navbar,setNavbar]=useState(false);
@@ -20,7 +23,6 @@ const Navigation=({onRouteChange})=>{
     }, []);
 
     window.addEventListener('resize',showButton);
-    // window.addEventListener('click',closeMobileMenu);
     const changeBackground=()=>{
        if(window.scrollY>=80){
            setNavbar(true);
@@ -34,15 +36,22 @@ const Navigation=({onRouteChange})=>{
             <div className="NavbarItems">
                 <h1 className='navbar-logo'>E-Learn</h1>
                 <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fa fa-times':'fas fa bars'}><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-mobile-application-hamburger-menu-setting-interface-basic-shadow-tal-revivo.png"/></i>
+                <div className={button+hamactive?'hamburger active':'hamburger'} onClick={()=>handleHam()}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+{/* <i className={click ? 'fa fa-times':'fas fa bars'}><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-mobile-application-hamburger-menu-setting-interface-basic-shadow-tal-revivo.png"/></i> */}
                 </div>
                 <ul className={click ?'nav-menu active':'nav-menu'}>
+                    
                     {
                         menuitems.map((items,index)=>{
                             return(
                             <li onClick={()=>onRouteChange(items.route)}><a className={items.cName} 
                             href={items.url}
-                            >
+                            onClick={()=>{closeMobileMenu(); handleHam();}}
+                            key={index}>
                             {items.title}</a></li>
                             )
                         })
