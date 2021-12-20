@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import ServiceCard from '../ServiceCard/ServiceCard';
 import {ServiceData} from '../ServiceData';
 import './ServiceList.css'
-const ServiceList = () => {
+const ServiceList = ({onRouteChange}) => {
   const [searchTerm,setSearchTerm] = useState('');
   return (
     <div>
@@ -27,6 +27,7 @@ const ServiceList = () => {
         }).map((val, i) => {
           return (
             <ServiceCard
+            onRouteChange={onRouteChange}
               key={i}
               id={val.id}
               name={val.name}

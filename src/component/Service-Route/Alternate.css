@@ -1,0 +1,34 @@
+.alternate {
+    padding-top: 20px;
+    background: white;
+    background-image:-webkit-linear-gradient(150deg, rgb(23, 31, 43) 35%, #000000 35%);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.alternate-option {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.option{
+    height: 180px;
+    width: 140px;
+    background: linear-gradient(0deg, rgb(23, 31, 43), rgb(14, 7, 7));
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.option:hover{
+    background: linear-gradient(0deg,rgb(14, 7, 7) ,rgb(23, 31, 43) );
+    transform: scale(1.01);
+}

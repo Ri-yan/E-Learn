@@ -3,7 +3,7 @@ import './Services.css';
 import Scover from './Scover.svg';
 import ServiceList from "./ServiceCatagories/ServiceList/ServiceList";
 // import SearchBox from "./SearchServices/SearchBox";
-const Services=()=>{
+const Services=({onRouteChange})=>{
     
     return(
         <div className="Services">
@@ -19,7 +19,7 @@ const Services=()=>{
                 <img src={Scover} alt="" className="services-cover-img" />
             </div>
             {/* <SearchBox/> */}
-            <ServiceList/>
+            <ServiceList onRouteChange={onRouteChange}/>
         </div>
     );
 }

@@ -7,6 +7,7 @@ import Footer from './component/Footer/Footer';
 import Intro from './component/Intro/Intro';
 import About from './component/About/About';
 import Services from './component/Services/Services';
+import Alternate from './component/Service-Route/Alternate';
 
 class App extends React.Component { 
   constructor(){
@@ -24,6 +25,7 @@ class App extends React.Component {
   return (
     <div className="App">
     <Navigation onRouteChange={this.onRouteChange}/>
+    {/* <Alternate/> */}
       { 
         this.state.route ==='home'
         ?<div style={{'width': '-webkit-fill-available'}}>
@@ -38,6 +40,8 @@ class App extends React.Component {
          ?<About onRouteChange={this.onRouteChange} />
           :this.state.route ==='services'
           ?<Services onRouteChange={this.onRouteChange} searchfield={this.searchfield}/>
+          :this.state.route ==='service-route'
+          ?<Alternate onRouteChange={this.onRouteChange}/> 
             :<Footer onRouteChange={this.onRouteChange}/>
         )
 }  
