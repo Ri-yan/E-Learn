@@ -57,7 +57,7 @@ const Intro=({onRouteChange})=>{
                 <img src={c5} alt="" className="c1" />
                 </div>
             </div>
-            <h1 style={{'textAlign':'center'}}>Expore our Services</h1>
+            <h1 style={{'textAlign':'center'}}>Explore our Services</h1>
             <div className="service-cover">
                 <img src={c0} alt="" className="service-cover-image" />
                <div className="service-cover-detail">

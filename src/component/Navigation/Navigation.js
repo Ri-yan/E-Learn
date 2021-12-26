@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react";
 import {menuitems} from './menuitems';
-// import Hamburger from './Hamburger/Hamburger.js'
 import './Navigation.css';
 
 const Navigation=({onRouteChange})=>{
@@ -41,7 +40,6 @@ const Navigation=({onRouteChange})=>{
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </div>
-{/* <i className={click ? 'fa fa-times':'fas fa bars'}><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-mobile-application-hamburger-menu-setting-interface-basic-shadow-tal-revivo.png"/></i> */}
                 </div>
                 <ul className={click ?'nav-menu active':'nav-menu'}>
                     

@@ -1,12 +1,12 @@
 import React from "react";
-import './Cover.css';
+import './Welcome.css';
 
-const Cover=({onRouteChange})=>{
+const Welcome=({onRouteChange})=>{
     return(
         <div className="cover">
             <div className='container'>
             <h1 className='cover-title'>Dive into the world of learning.</h1>
-            <button className=''onClick={()=>{window.scroll({
+            <button className='' onClick={()=>{window.scroll({
   top: 600,
   left: 0,
   behavior: 'smooth'
@@ -15,4 +15,4 @@ const Cover=({onRouteChange})=>{
         </div>
     );
 }
-export default Cover;
+export default Welcome;

@@ -28,7 +28,7 @@ const Register=()=>{
 	    <label class="form-check-label" for="exampleCheck1">Check me out</label>
 	  </div>
 
-	 <button type="submit" class="btn btn-primary">  <a href="Surprise.gif">Submit</a></button>
+	 <button type="submit" class="btn btn-primary">  <a href="https://codeconvey.com/wp-content/uploads/2020/06/registration-successful-message-html.png">Submit</a></button>
 	
 	</form>
 </section>

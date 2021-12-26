@@ -35,7 +35,7 @@ const About=()=>{
                 <h2 className='bottom'>About us</h2>
                     <p>E-Learn originated from the idea that there exists a class of readers who respond better to online content and prefer to learn new skills at their own pace from the comforts of their drawing rooms.</p>
                     <p>Our content and resources are freely available and we prefer to keep it that way to encourage our readers acquire as many skills as they would like to. We don’t force our readers to sign up with us or submit their details either. No preconditions and no impediments. Simply Easy Learning!</p>
-                </div>
+            </div>
             <div className="achive">
                 <h1 className='bottom'>Our Motive</h1>
                 <div className="goal-card-section">
@@ -57,9 +57,7 @@ const About=()=>{
                 <p>Our mission is to deliver Simply Easy Learning with clear, crisp, and to-the-point content on a wide range of technical and non-technical subjects without any preconditions and impediments.</p>
             </div>
             </div>
-            
             </div>
-            
         </div>
     );
 }

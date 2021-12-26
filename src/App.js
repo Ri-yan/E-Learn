@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from "./component/Navigation/Navigation";
-import Cover from "./component/Cover/Cover";
+import Welcome from "./component/Welcome/Welcome";
 import Register from './component/Register/Register';
 import Footer from './component/Footer/Footer';
 import Intro from './component/Intro/Intro';
@@ -29,7 +29,7 @@ class App extends React.Component {
       { 
         this.state.route ==='home'
         ?<div style={{'width': '-webkit-fill-available'}}>
-          <Cover onRouteChange={this.onRouteChange}/>
+          <Welcome onRouteChange={this.onRouteChange}/>
           <Intro onRouteChange={this.onRouteChange}/>
           <Footer onRouteChange={this.onRouteChange}/>
         </div>

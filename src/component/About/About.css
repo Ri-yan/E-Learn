@@ -124,6 +124,7 @@
   margin: 5px;
   border-radius: 25px;
   padding: 10px;
+  cursor: pointer;
 }
 .goal-card:hover{
   background: linear-gradient(188deg,rgb(40, 77, 35) ,rgb(49, 75, 109) );
@@ -155,6 +156,9 @@
   }
   .owener-words{
     font-size: 0.7em;
+  }
+  .qoute{
+    font-size: 2rem;
   }
 }
 p{
