@@ -123,6 +123,11 @@ export const ServiceData = [
       name: 'wordpress',
       username: 'Moriah.Stanton',
       link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'
+    },
+    {
+      id: 22,
+      name: 'Cloud Computing',
+      username: 'Moriah.Stanton',
+      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-plain.svg'
     }
-
   ];

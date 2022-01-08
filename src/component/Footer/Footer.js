@@ -49,8 +49,8 @@ const Footer=()=>{
             <div className="closing">
                 <div>@Mohd Riyan</div>
                 <div >
-                    <img style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='github' src="https://img.icons8.com/material/48/000000/github.png"/>
-                    <img  style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/linkedin.png"/>
+                    <a href="https://github.com/Ri-yan"><img style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='github' src="https://img.icons8.com/material/48/000000/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/mohd-riyan-0330b4225/"><img  style={{'background-color':'white',margin:'3px'}} className='social-icon' alt='linkedin' src="https://img.icons8.com/material/48/000000/linkedin.png"/></a>
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@ const Register=()=>{
 	</form>
 </section>
 <footer class="col-12">
-	<h6>Also check out:</h6>
+	<h5>Also check out:</h5>
 	<a href="https://github.com/Ri-yan"><h6>https://github.com/Ri-yan</h6></a>
 </footer>
 </div>

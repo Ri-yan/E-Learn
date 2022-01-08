@@ -77,3 +77,8 @@ h3{
     border: none;
     cursor: pointer;
 }
+@media screen and (max-width:400px) {
+    .tile1{
+        width: 80%;
+    }
+}

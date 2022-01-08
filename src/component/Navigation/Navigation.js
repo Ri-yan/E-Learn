@@ -12,6 +12,9 @@ const Navigation=({onRouteChange})=>{
     const closeMobileMenu =()=>setClick(false);
     const showButton=()=>{
         if(window.innerWidth<=960){
+            if(hamactive===true){
+             setHamActive(false);
+            }
             setButton(false);
         }else{
             setButton(true);
